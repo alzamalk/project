@@ -1,0 +1,215 @@
+.COLOR {
+    color: orange;
+    position: relative;
+    bottom: 15px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.text-between {
+    display: flex;
+    position: relative;
+    left: 55px;
+}
+
+.between {
+    position: relative;
+    bottom: 15px;
+    left: 2px;
+}
+
+.NAV {
+    width: 50%;
+    
+
+
+}
+
+.HOME {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+.BUTTON {
+    border-radius: 15px;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    position: relative;
+    right: 55px;
+    border-color: white;
+}
+
+.HEADER {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.BACKGROUND {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./aerial-view-business-team_53876-124515.jpg);
+    height: 370PX;
+}
+
+.BUTTOM {
+    position: relative;
+    top: 150px;
+
+}
+
+.IMG {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: orange;
+}
+
+.FONT {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.TEXT-FONT {
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+    color: white;
+}
+
+.ORANGE {
+    border-radius: 15PX;
+    color: white;
+    background-color: orange;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: relative;
+    bottom: 15px;
+    position: relative;
+    bottom: 15px;
+    left: 180px;
+}
+
+.CENTER {
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    position: relative;
+    bottom: 15px;
+    left: 200px;
+}
+
+.TEXT-CENTER {
+    text-align: center;
+    position: relative;
+    top: 40px;
+
+}
+
+
+.text-card {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+}
+
+.card {
+    width: 22%;
+    border: 1px solid white;
+    text-align: center;
+    box-shadow: 20px 5px 67px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 20px 5px 67px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 20px 5px 67px 2px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+}
+
+.button-card {
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: orange;
+    color: white;
+    border-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.background-img {
+
+    position: relative;
+    top: 200px;
+
+}
+
+.orange {
+    color: orange;
+    position: relative;
+    top: 20px;
+    right: 10px;
+}
+
+.orange-text {
+    color: orange;
+}
+
+.foto {
+    width: 100%;
+    height: 350px;
+    border-radius: 0px;
+    opacity: 30%;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    bottom: 90px;
+    left: 800px;
+}
+.END{position: relative;
+top: 300PX;
+text-align: center;}
+@media screen and (min-width:375px) and (max-width:768px) {
+    .card{width: 100%;}
+    .text-card{flex-wrap: wrap;}
+    .NAV{display: none;}
+    .FONT{font-size: 40px;}
+    .TEXT-FONT{position: relative;
+    top: 10px;
+}
+.IMG{position: relative;
+top: 30px;}
+.ORANGE{position: relative;
+top: 20px;
+left: -20px;}
+.CENTER{position: relative;
+top: 20px;
+left: -20px;}
+.foto{position: relative;}
+.text{position: absolute;
+left: 15px;
+}
+
+
+}
+
+
+
+
+
+
+
+    
